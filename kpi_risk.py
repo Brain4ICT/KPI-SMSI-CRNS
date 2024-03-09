@@ -36,7 +36,7 @@ if st.button("KPI Dashboard"):
 
     # Création d'un DataFrame pour le pie chart
     data = {
-        'Indicateur': ['TDR', 'TTR', 'TNRR', 'Temps Moyen de Résolution'],
+        'Indicateur': ['Taux de Détection des Risques (TDR)', 'Taux de Traitement des Risques (TTR)', 'Taux de réduction de Risque Résiduel (TNRR)', 'Temps Moyen de Réduction des Risques (TMR)'],
         'Valeur': [tdr, ttr, tnrr, temps_moyen_resolution]
     }
     df = pd.DataFrame(data)
